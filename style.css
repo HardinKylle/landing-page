@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*nothing to change */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*this is for 100percent viewport screen */
+}
+
+ul{
+    list-style: none;    
+    display: flex;
+    gap: 12px;
+    font-family: 'Hero Secondary text';
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+
+/*nothing to change */
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section{
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+}
+
+.first-slide{
+    background-color: #1F2937;
+}
+
+.second-slide{
+    background-color:#F9FAF8;
+}
+
+.third-slide{
+    background-color: #E5E7EB;
+}
+
+/*nothing to change */
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
