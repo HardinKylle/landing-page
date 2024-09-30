@@ -87,8 +87,14 @@ a{
     border-radius: 3px;
     font-size: 0.5;
     font-weight: 500;
+    cursor: pointer;
 }
-.main-container{
+
+.signup-button:hover{
+    background-color: #0040a7;
+}
+
+.first-slide .main-container{
     display: flex;
     max-height: 400px;
     gap: 100px;
@@ -103,7 +109,42 @@ a{
 
 .second-slide{
     background-color:#F9FAF8;
+    flex-direction: column;
 }
+
+.second-slide h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.second-slide .main-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    gap: 70px;
+}
+
+.info-container{
+    max-width: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-container img{
+    width: 170px;
+    height: 200px;
+    border-radius: 5%;
+
+}
+
+.info-container p{
+    text-align: center;
+}
+
+img 
 
 .third-slide{
     background-color: #E5E7EB;
