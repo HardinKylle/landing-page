@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-/*nothing to change */
 body{
     display: flex;
     flex-direction: column;
@@ -78,11 +77,11 @@ a{
     color: #F9FAF8;
     max-width: 100%;
 }
-.signup-button{
+.message-button{
     background-color: #3882F8;
     color: white;
     padding: 0.4em;
-    width: 70px;
+    width: 90px;
     border: none;
     border-radius: 3px;
     font-size: 0.5;
@@ -90,7 +89,7 @@ a{
     cursor: pointer;
 }
 
-.signup-button:hover{
+.message-button:hover{
     background-color: #0040a7;
 }
 
@@ -111,20 +110,23 @@ a{
     background-color:#F9FAF8;
     flex-direction: column;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .second-slide h1{
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    flex: 1;
 }
 
 .second-slide .main-container{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 70px;
     gap: 70px;
+    flex: 1;
 }
 
 .info-container{
@@ -145,14 +147,60 @@ a{
 }
 
 .third-slide{
+    display: flex;
     background-color: #E5E7EB;
+    align-items: center; 
+    justify-content: center;
 }
 
-/*nothing to change */
+.third-slide .main-container{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    flex-direction: column;
+}
+.third-slide p{
+    font-style: italic;
+    font-size: 36px;
+    color:#1F2937;    
+}
+
+.third-slide h1{
+    color:#1F2937;
+    align-self: flex-end;
+}
+
+.fourth-slide{
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+}
+
+.fourth-slide .main-container{
+    display: flex;
+    min-width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#3882F8;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fourth-slide .text-container .head{
+    font-weight: 900;
+}
+
+.fourth-slide .message-button {
+    height: 40px;
+    border: 2px solid #F9FAF8;
+}
+
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+    height: 80px;
     align-items: center;
 }
